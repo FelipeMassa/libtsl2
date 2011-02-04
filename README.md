@@ -10,13 +10,15 @@ and goodies used to actually *run* the labs.
 
 ### /transient_convection/
 
-#### /transient_convection.cmbl (*COMING SOON!*):
+#### /transient_convection.cmbl:
 We used Logger Pro to do the first lab. It's
 pretty trivial to set up in terms of computers, so I just went and did it.
 Basically, we're just recording one (two for extra fun) temperature(s) with a
 type-K thermocouple (we also have the apparatus for a type-T but the Vernier
 sensors don't roll that way) every fifteen seconds over the course of 1.5--2
 hours.
+
+Perhaps interestingly, the cmbl format is "just" xml.
 
 ### /low-temp_viscosity/
 
