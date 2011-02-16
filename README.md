@@ -43,3 +43,39 @@ family of functions can't look for two things at once, so we use an intermediate
 hlookup to get the correct column number.
 
 Alternately, just use the cardboard slidey-thing. It's your time. ;)
+
+### /temp_rods/
+
+#### /temp_rods.vi :
+This is a LabVIEW VI that takes measurements from 10 thermocouples using our
+National Instruments USB DAQ box. Essentially, this is all it does. It has a lot
+of bells and whistles, but could definitely use some fine-tuning.
+Note that the box doesn't have a cold-junction compensator built-in, so we
+simply use a constant for room temperature and hope that the inaccuracy this
+introduces isn't important.
+
+#### /temp_rods.pdf :
+This is a print-out of the associated VI.
+
+### /extras/
+
+This folder contains some helper tools that aren't associated with any
+particular lab. Over time, I may add these to a legit LabVIEW library.
+
+#### /range.vi
+
+This VI implements the range function as seen in such languages as python.
+It looks something like this:
+
+                              _______________
+                             |               |
+    O---[from (default 0)]-->|   R A N G E   |
+                             |---------------|
+    O---[to (required)]----->|               |O==[1-D array (from, from+every...to-1)]==>
+                             |               |
+    O---[every (default 1)]->|    *  *  *    |
+                             |               |
+                             |_______________|
+
+
+and is roughly equivalent to range(from, to, every).
