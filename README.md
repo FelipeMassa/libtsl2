@@ -54,11 +54,16 @@ Note that the box doesn't have a cold-junction compensator built-in, so we
 simply use a constant for room temperature and hope that the inaccuracy this
 introduces isn't important.
 
+It should be noted that this lab had issues with the DAQ box returning garbage
+values after roughly two minutes of use. Reasons for this are still being
+troubleshooted.
+
 #### /temp_rods.pdf :
 This is a print-out of the associated VI.
 
 #### /boiler_directions/ :
-This folder contains a LaTeX document describing how to use the boiler required for this experiment. It includes a picture!
+This folder contains a LaTeX document describing how to use the boiler required
+for this experiment. It includes a picture!
 
 ### /extras/
 
@@ -77,7 +82,6 @@ It looks something like this:
     O---[to (required)]----->|               |O==[1-D array (from, from+every...to-1)]==>
                              |               |
     O---[every (default 1)]->|    *  *  *    |
-                             |               |
                              |_______________|
 
 
