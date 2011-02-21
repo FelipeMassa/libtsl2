@@ -57,6 +57,9 @@ introduces isn't important.
 #### /temp_rods.pdf :
 This is a print-out of the associated VI.
 
+#### /boiler_directions/ :
+This folder contains a LaTeX document describing how to use the boiler required for this experiment. It includes a picture!
+
 ### /extras/
 
 This folder contains some helper tools that aren't associated with any
