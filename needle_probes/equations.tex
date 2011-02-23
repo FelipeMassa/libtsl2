@@ -1,0 +1,57 @@
+\documentclass[letterpaper]{article}
+\usepackage{bargar}
+\usepackage{amsmath}
+\usepackage{euler}
+
+\student{Joshua Holbrook}
+\assignment{Equations for Needle Probe Action}
+\duedate{\today}
+\coursename{Thermal Systems Lab}
+\coursenumber{ME 415}
+
+\begin{document}
+
+\section{The Heat Equation, generalized:}
+\begin{equation}
+-k\nabla^2T = \rho C \frac{\partial T}{\partial t}
+\end{equation}
+
+\section{The exact solution to the heat equation with an infinite line source with
+constant heat flux:}
+\begin{equation}
+T(r, t) = -\frac{q}{4\pi k} \textrm{Ei}\left( -\frac{r^2}{4kt} \right)
+\end{equation}
+Note that \(q\) is the heat flux per linear distance.
+
+\section{The ``long-time'' solution to the same problem:}
+\begin{equation}
+T(r,t) = \frac{q}{4\pi k}\ln\left( \frac{4kt}{r^2} - \frac{\gamma q}{4\pi k} \right)
+\end{equation}
+Note that \(\gamma\) is the ``Euler-Masceroni constant.''
+
+\section{Using this solution to solve for \(k\):}
+\begin{equation}
+k = \frac{q}{4\pi} \left( \frac{dT}{d\left(\ln( t)\right)} \right)^{-1}
+\end{equation}
+\(\frac{dT}{d\left(\ln( t)\right)}\) may be found using a linear curve fit.
+
+\section{An Analogous Approach applied to the Cooling Curve:}
+\begin{equation}
+k = -\frac{q}{4\pi} \left( \frac{dT}{d\left(\ln( t_{\textrm{cool}})\right)} \right)^{-1}
+\end{equation}
+\(t_{\textrm{cool}} = t - t_{\textrm{heated}}\), where \(t_{\textrm{heated}}\)
+is the length of time the sample was heated. In other words, for the cooling
+curve, reset \(t_0\).
+
+\section{Calculating \(q\), heat flux per linear distance (W/m) from the
+given voltage during the heating curve:}
+\begin{equation}
+\left. \left(\frac{V^2}{R}\right) \middle/ l \right.
+\end{equation}
+The ``voltage'' column from the apparatus results is given in millivolts. 
+\(R = 0.7902 \Omega\), and \(l = 0.120 m\). \(V\) should be averaged over the
+heating curve portion of the experiment.
+
+
+
+\end{document}
