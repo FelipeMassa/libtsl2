@@ -57,6 +57,38 @@ introduces isn't important.
 #### /temp_rods.pdf :
 This is a print-out of the associated VI.
 
+### /needle_probes/ :
+
+I ran out of time to fix the Guarded Hot Plate apparatus. Reportedly, it has a
+busted flux sensor. It actually has three of them, so one should be able to fix
+it by disconnecting them and reconnecting them until some combination of 2/3 of
+them behaves as expected. Alternately, one could dig up a replacement HFS
+somewhere and use that.
+
+Anyways: The measurement stuff for
+[my thesis](http://github.com/jesusabdullah/anisotropy_testtools) is pretty
+much ready to go, so we're going to have students do the isotropic version of
+this instead.
+
+The code used to actually run the experiment is *not* included, because it's not
+mine.  Look into Matthew Sturm's research if you are interested. Some details:
+It uses a Campbell CR10X data logger, a hand-made needle, some D-cell batteries
+and a relay switch to heat the needle, and a thermocouple or two and a voltmeter
+for measurements. The original code used for analysis was written for
+[IGOR Pro](https://secure.wikimedia.org/wikipedia/en/wiki/IGOR_Pro), but the
+[stuff I wrote](https://github.com/jesusabdullah/anisotropy_testtools/blob/master/testtools.py)
+uses python, and I expect that the students will just use Excel.
+
+####/equations.tex :
+
+This is the source code for the corresponding pdf file that describes the
+equations necessary to use with this lab.
+
+####/equations.pdf :
+
+This is the compiled version of the corresponding LaTeX file that describes the
+equations nessary to use with this lab.
+
 ### /extras/
 
 This folder contains some helper tools that aren't associated with any
