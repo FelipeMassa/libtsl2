@@ -99,6 +99,19 @@ This is the compiled version of the corresponding LaTeX file that describes the
 equations nessary to use with this lab.
 
 
+### /pump/
+
+#### /rpm_meter.vi
+
+Only one of the transducers for the pump performance lab was measured with
+LabVIEW. This VI reads in voltage over an overkill sampling window, finds the
+fundamental frequency, and converts the result to GPM.
+
+#### /transducers.md
+
+This document details some research I did on the transducers used for this lab,
+for future reference.
+
 ### /extras/
 
 This folder contains some helper tools that aren't associated with any
