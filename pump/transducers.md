@@ -34,6 +34,8 @@ relatively simple to use LabVIEW to measure it.
 
 ### Make/Model: S. Himmelstein & Co., MCRT 48201V-2308-191
 
+### Web Site: http://www.himmelstein.com/48200v.asp
+
 This unit is a *digital* torquemeter, and communicates with devices through a
 serial port. This is one of the primary reasons, besides time, that I decided
 not to try converting this lab to use LabVIEW throughout.
