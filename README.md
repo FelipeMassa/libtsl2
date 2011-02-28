@@ -55,8 +55,10 @@ simply use a constant for room temperature and hope that the inaccuracy this
 introduces isn't important.
 
 It should be noted that this lab had issues with the DAQ box returning garbage
-values after roughly two minutes of use. Reasons for this are still being
-troubleshooted.
+values after roughly two minutes of use. It is believed that this may be solved
+by grounding at least one of the thermocouples with the "AI_GND" plug on the
+NI DAQ box, but, as this theory was put forth *after* the labs were completed,
+this has not yet been proven.
 
 #### /temp_rods.pdf :
 This is a print-out of the associated VI.
