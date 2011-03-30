@@ -112,7 +112,8 @@ fundamental frequency, and converts the result to GPM.
 #### /transducers.md
 
 This document details some research I did on the transducers used for this lab,
-for future reference.
+for future reference. It includes important information about gross inaccuracy
+in one of the sensors, so if you are doing this lab, *please* read it.
 
 ### /extras/
 
