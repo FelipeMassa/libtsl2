@@ -40,5 +40,7 @@ This unit is a *digital* torquemeter, and communicates with devices through a
 serial port. This is one of the primary reasons, besides time, that I decided
 not to try converting this lab to use LabVIEW throughout.
 
-It is also believed that, while its torque and RPM read-outs are
-sound, its calculation for horsepower is incorrect.
+An important caveat with the torquemeter: Its RPM measurements are sound and
+its horsepower calculation is correct given its RPM and torque readings.
+**HOWEVER**, the torque reading is about ten times too large. Reasons for this
+are currently unknown.
