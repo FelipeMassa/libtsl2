@@ -42,5 +42,5 @@ not to try converting this lab to use LabVIEW throughout.
 
 An important caveat with the torquemeter: Its RPM measurements are sound and
 its horsepower calculation is correct given its RPM and torque readings.
-**HOWEVER**, the torque reading is about ten times too large. Reasons for this
+**HOWEVER**, the torque reading is about **100** times too large. Reasons for this
 are currently unknown.
