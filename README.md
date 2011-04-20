@@ -54,11 +54,10 @@ Note that the box doesn't have a cold-junction compensator built-in, so we
 simply use a constant for room temperature and hope that the inaccuracy this
 introduces isn't important.
 
-It should be noted that this lab had issues with the DAQ box returning garbage
-values after roughly two minutes of use. It is believed that this may be solved
-by grounding at least one of the thermocouples with the "AI_GND" plug on the
-NI DAQ box, but, as this theory was put forth *after* the labs were completed,
-this has not yet been proven.
+**It should be noted that this lab had issues with the DAQ box returning garbage
+values after roughly two minutes of use. This may be solved by grounding at
+least one of the thermocouples with the "AI_GND" plug on the NI DAQ box, as
+later shown to work in the case of the generator lab.**
 
 #### /temp_rods.pdf :
 This is a print-out of the associated VI.
@@ -115,10 +114,29 @@ This document details some research I did on the transducers used for this lab,
 for future reference. It includes important information about gross inaccuracy
 in one of the sensors, so if you are doing this lab, *please* read it.
 
+
+### /generator/
+
+#### /generator.vi
+
+This is the VI that gathers all the data from the generator. There is a lot of
+stuff to measure!
+
+#### /generator.pdf
+
+I was proud of the front panel, so I made a .pdf printout to share this VI with
+my friends!
+
+### /transducers.md (COMING SOON)
+
+This document details most of what's known about the transducers used for this
+lab. It includes which wires are which, the conversion factors, and more.
+
+
 ### /extras/
 
-This folder contains some helper tools that aren't associated with any
-particular lab. Over time, I may add these to a legit LabVIEW library.
+This folder contains some sub-VIs written for various labs. They tend to be
+the sort of VIs that should have room for reuse.
 
 #### /range.vi
 
@@ -136,3 +154,38 @@ It looks something like this:
 
 
 and is roughly equivalent to range(from, to, every).
+
+#### /push.vi
+
+This VI makes pushing data to the end of an array easy:
+
+                              _______________
+                             |               |
+                             |               |
+    O===[Original Array]====>|     *PUSH*    |
+                             |               |O==[New array w/ pushed element]==>
+                             |               |
+    O---[New element]------->|               |
+                             |_______________|
+
+
+Note that, unlike many things called "push," in LabVIEW you hardly ever modify
+an actual variable in-place. This is no exception; it's pretty much a new array
+coming out.
+
+#### /pop.vi
+
+`push.vi`'s brother:
+                              _______________
+                             |               |
+                             |               |
+                             |     *POP*     |O==[New array w/ missing element]==>
+    O===[Original Array]====>|               |
+                             |               |
+                             |               |O---[Popped element]------->
+                             |_______________|
+
+
+Like `push.vi`, this doesn't really modify the original array in-place; it just
+gives you the last element of the array, plus an array without that last
+element.
