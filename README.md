@@ -127,11 +127,14 @@ stuff to measure!
 I was proud of the front panel, so I made a .pdf printout to share this VI with
 my friends!
 
-### /transducers.md (COMING SOON)
+#### /transducers.md
 
 This document details most of what's known about the transducers used for this
 lab. It includes which wires are which, the conversion factors, and more.
 
+### /inventory.xls (WORK IN PROGRESS)
+
+This is an Excel spreadsheet detailing what equipment we have and where it is located/stored.
 
 ### /extras/
 
