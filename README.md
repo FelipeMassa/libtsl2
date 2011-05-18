@@ -132,9 +132,25 @@ my friends!
 This document details most of what's known about the transducers used for this
 lab. It includes which wires are which, the conversion factors, and more.
 
-### /inventory.xls (WORK IN PROGRESS)
+### /manual/
 
-This is an Excel spreadsheet detailing what equipment we have and where it is located/stored.
+This folder (if all goes as planned) contains the pdf version of the Unofficial
+Expanded, Annotated & Revised 2011 Edition of the UAF Mechanical Engineering
+ME 415: Thermal Systems Laboratory Manual.
+
+#### /manual.pdf
+
+The manual in question.
+
+#### /src/
+
+This folder contains a few markdown documents written to update and support the
+latest edition of the unofficial manual.
+
+### /inventory.xls
+
+This is an Excel spreadsheet detailing what equipment we have and where it is
+located/stored.
 
 ### /extras/
 
@@ -179,6 +195,7 @@ coming out.
 #### /pop.vi
 
 `push.vi`'s brother:
+
                               _______________
                              |               |
                              |               |
