@@ -69,4 +69,6 @@ include:
 [8] Kwon, O. K., and Pletcher, R. H., 1981, “Prediction of the Incompressible Flow Over A Rearward-Facing Step,” Technical Report No. HTL-26, CFD-4, Iowa State Univ., Ames, IA.
 [9] Smith, R., 2002, “Conformal Lubricated Contact of Cylindrical Surfaces Involved in a Non-Steady Motion,” Ph.D. thesis, http://www.cas.phys.unm.edu/rsmith/homepage.html
 
-From the author's guide on ASME.org (http://www.asme.org/Publications/ConfProceedings/Author/References_2.cfm)
+From the author's guide on ASME.org:
+
+http://www.asme.org/Publications/ConfProceedings/Author/References_2.cfm
