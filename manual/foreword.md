@@ -40,8 +40,7 @@ This edition of the manual, unlike the 2010 edition, contains not just annotated
 contents of the "traditional" manual and Dr. Ed Bargar's personal notes, but
 also original material detailing the current status of equipment, practical
 information on preparing the labs, and even some LabVIEW code where appropriate.
-However, some material, such as Dr. Kim's personal notes and used exams written
-by Dr. Kim, are not included due to lack of availability, and many of the
+However, some material is not included due to lack of availability, and many of the
 directions contained in this lab manual are still out-of-date.
 
 As I said in the 2010 foreword, "This edition of the Thermal Systems Laboratory
