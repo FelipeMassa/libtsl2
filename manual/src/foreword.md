@@ -14,14 +14,14 @@ instead of iterating upon the labs.
 
 Last year, Dr. Johnson officially was bestowed Emeritus status, and Dr. SunWoo
 Kim joined our faculty as the new Heat Transfer expert on-staff. This was his
-first year teaching the course, and, like all rookie faculty members, has much
-to learn, and given the state of ME 415 as of now, has a lot of work ahead of
-him.
+first year teaching the course, and, like all rookie faculty members, he had
+much to learn. Moreover given the state of ME 415 as of now, he had a lot of
+work ahead of him.
 
 However, even in this short period of time, Dr. Kim and I have been able to
-improve on this course. UAF's Mechanical Engineering department still has a lot
-of work ahead of itself. However, the general tone of the tome should be more
-hopeful.
+improve on this course. We have but only began to climb the mountain that is
+sufficiently improving this lab course; However, the general tone of this tome
+should be more hopeful.
 
 The 2010 edition of the Updated & Annotated manual was just as much an avenue
 for me to vent as it was an effort to improve the documentation of the course.
@@ -48,6 +48,7 @@ Manual is not intended to be complete, well-organized or even professional.
 However, with luck, it will be more useful." This is true now more than ever.
 
 --Joshua Holbrook
+
 May 2011
 
 
