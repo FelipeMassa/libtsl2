@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\newcommand{\kimspect}{Dr. Kim's (Revised) Expectations for Analysis and Discussion for the}
+\begin{document}
+
+\section{\kimspect Low-Temperature Viscosity lab}
+
+Discuss how these tests reflect real-world conditions in a car engine and their
+effects on engine wear, performance and fuel economy.
+
+\pagebreak
+
+\section{\kimspect Refrigeration Performance lab}
+
+Aside from organized data in tables (including wattage, measured with a ``Watts-Up Meter''), Dr. Kim wanted students to calculate the
+following:
+
+\begin{itemize}
+\item \(\dot{m}_{\textrm{coolant}} = (\dot{m}_{\textrm{evap, water}} C_p \Delta T_{\textrm{evap, water}})/(h_1 - h_4)\)
+\item \(W_{\textrm{comp}} = \dot{m}_{\textrm{coolant}}(h_2 - h_1) \)
+\item \(\nu_{\textrm{mech}} = \dot{W}_{\textrm{comp}} / \dot{W}_{\textrm{elec}} \)
+\item \(\textrm{COP} = \dot{Q}_L / \dot{W}_{\textrm{comp}} \)
+\end{itemize}
+
+In addition, discuss:
+
+\begin{itemize}
+\item How can COP be improved?
+\item Why is COP a function of refrigerator load?
+\item How does the actual COP compare with the ideal COP?
+\end{itemize}
+
+\pagebreak
+
+\section{\kimspect Heat Exchanger Performance}
+
+In addition to using the Moody Chart (or, as I personally recommended, using an approximate solution to the Colebrook Equations, such as the \emph{Serghides' Solution}), Dr. Kim also wanted his students to use the \emph{Dittus-Boelter correlations} in order to eventually calculate the \emph{effectiveness} ( \(\epsilon\) ), \(U_{\textrm{experimental}}\) and \(U_{\textrm{theoretical}}\). Then, discuss the effects of flow rate and temperatures on \(\epsilon\) and the differences in \(U\)-values.
+
+Serghides' Solution and the Dittus-Boelter correlations may be found on Wikipedia. Both may be easily programmed in MATLAB or a similar scripting language.
+
+\pagebreak
+
+
+\end{document}
